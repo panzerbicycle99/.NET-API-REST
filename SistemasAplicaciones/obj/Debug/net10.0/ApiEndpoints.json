@@ -1,0 +1,206 @@
+[
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "DequeueDescarga",
+    "RelativePath": "api/Archive/cola/dequeue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "EnqueueDescarga",
+    "RelativePath": "api/Archive/cola/enqueue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SistemasAplicaciones.Models.EstructurasLineales\u002BDescargaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "PeekDescarga",
+    "RelativePath": "api/Archive/cola/peek",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "Delete",
+    "RelativePath": "api/Archive/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "Download",
+    "RelativePath": "api/Archive/download/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "BuscarHash",
+    "RelativePath": "api/Archive/hash/buscar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clave",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "EliminarHash",
+    "RelativePath": "api/Archive/hash/eliminar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clave",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "InsertarHash",
+    "RelativePath": "api/Archive/hash/insertar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SistemasAplicaciones.Models.HashEntryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "GetInfo",
+    "RelativePath": "api/Archive/info/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "ListFiles",
+    "RelativePath": "api/Archive/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "PeekHistorial",
+    "RelativePath": "api/Archive/pila/peek",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "PopHistorial",
+    "RelativePath": "api/Archive/pila/pop",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "PushHistorial",
+    "RelativePath": "api/Archive/pila/push",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SistemasAplicaciones.Models.EstructurasLineales\u002BAccionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "TestDatabase",
+    "RelativePath": "api/Archive/test-db",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemasAplicaciones.Controllers.ArchiveController",
+    "Method": "Upload",
+    "RelativePath": "api/Archive/upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
